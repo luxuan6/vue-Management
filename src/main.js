@@ -3,6 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// import { Button, Select } from 'element-ui';
+import Element from 'element-ui';
+Vue.use(Element, { size: 'small', zIndex: 3000 });
+
+
+
+// Vue.component(Button.name, Button);
+// Vue.component(Select.name, Select);
 
 Vue.config.productionTip = false
 
